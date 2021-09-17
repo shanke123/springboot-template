@@ -1,0 +1,2 @@
+springboot中driver-class-name报红
+https://blog.csdn.net/qq_44009317/article/details/109260875
