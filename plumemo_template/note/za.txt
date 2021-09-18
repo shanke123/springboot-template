@@ -1,5 +1,14 @@
+http://localhost:8086//api/plumemo-service/index/index
+http://localhost:8086//api/plumemo-service/tags/test/tags/v1/add
+
 init
-https://blog.csdn.net/baidu_39298625/article/details/98102453
+    https://blog.csdn.net/baidu_39298625/article/details/98102453
 
 MyBatis-Plus
-https://www.yuque.com/books/share/2b434c74-ed3a-470e-b148-b4c94ba14535/ir2k92
+    https://www.yuque.com/books/share/2b434c74-ed3a-470e-b148-b4c94ba14535/ir2k92
+MyBatis-Plus Active Record
+    https://juejin.cn/post/6850418120780152846
+    https://www.cxyzjd.com/article/qq_29445811/117235039
+    我们这里需要重写pkVal()方法，return当前类的主键。
+    在实际的实践中，发现如果未重写pkVal()方法，并不会影响AR的使用
+

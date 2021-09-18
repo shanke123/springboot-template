@@ -1,0 +1,6 @@
+参数校验
+    手动校验
+    自动校验
+        对应到实际编码的话，推荐：
+        封装ValidatorUtils
+        使用Spring Validation
