@@ -19,7 +19,8 @@ public class TagsVO extends BaseVO<TagsVO> {
      */
     //
     //@NotBlank(groups = {Insert.class, Update.class})
-    @NotBlank(message="名称不为空")
+    //@NotBlank(message="名称不为空")
+    @NotBlank(groups = {Insert.class, Update.class})
     private String name;
 
     /**

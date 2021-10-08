@@ -7,7 +7,8 @@ spring:
     url:  jdbc:mysql://localhost:3306/hrm_db3?useSSL=false&characterEncoding=utf8
     username: root
     password: root
-    driver-class-name: com.mysql.jdbc.Driver
+    #driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 #关于MyBatis-Plus的设置
 mybatis-plus:
